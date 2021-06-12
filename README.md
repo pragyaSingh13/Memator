@@ -1,5 +1,5 @@
 # Memator
-Random Meme Generator
+
 <img src= "images/s1.jpg" height = "400" width = "200">
 
 <img src= "images/s2.jpg" height = "400" width = "200">
