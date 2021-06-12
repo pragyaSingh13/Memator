@@ -24,7 +24,7 @@ class home() : AppCompatActivity(){
 
         val builder = AlertDialog.Builder(this)
         builder.setTitle(" 18+ WARNING")
-        builder.setMessage("This contains some memes which might not be suitable for minors")
+        builder.setMessage("This app contains some memes which might not be suitable for minors")
 //builder.setPositiveButton("OK", DialogInterface.OnClickListener(function = x))
 
         builder.setPositiveButton(android.R.string.yes) { dialog, which ->
