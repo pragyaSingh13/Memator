@@ -63,7 +63,7 @@ class home() : AppCompatActivity(){
         val intent = Intent(Intent.ACTION_SEND)
         intent.type = "text/plain"
         intent.putExtra(Intent.EXTRA_TEXT,"Check out this meme LOL -> $url")
-        val chooser = Intent.createChooser(intent, "Share to...")
+        val chooser = Intent.createChooser(intent, "Share via...")
         startActivity(chooser)
 
     }
